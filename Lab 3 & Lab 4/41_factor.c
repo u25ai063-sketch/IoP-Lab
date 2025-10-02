@@ -4,7 +4,7 @@ int main()
 {
     int n;
 
-    printf("Enter any non zero positive number:");
+    printf("Enter any non zero positive number: ");
     scanf("%d", &n);
 
     printf("Factors of %d is:", n);
@@ -12,7 +12,7 @@ int main()
     {
         if (n % i == 0)
         {
-            printf("%d\t", i);
+            printf("%d, ", i);
         }
     }
 }
