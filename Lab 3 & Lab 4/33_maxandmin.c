@@ -1,3 +1,4 @@
+// C program to find max and min number.
 #include <stdio.h>
 
 int main()

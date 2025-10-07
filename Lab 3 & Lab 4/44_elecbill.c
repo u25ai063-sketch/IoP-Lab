@@ -1,3 +1,4 @@
+// C program to find the amount of electricity bill.
 #include <stdio.h>
 
 int main()

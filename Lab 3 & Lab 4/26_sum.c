@@ -1,3 +1,5 @@
+// C program to find the sum of odd and even no. netween 1 to N.
+
 #include <stdio.h>
 
 int main()

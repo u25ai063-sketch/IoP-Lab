@@ -1,3 +1,4 @@
+// C program to find sum of a factorial series
 #include <stdio.h>
 
 int main()

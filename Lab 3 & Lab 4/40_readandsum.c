@@ -1,3 +1,4 @@
+// C program to read all the nos. till negative and add those nos.
 #include <stdio.h>
 
 int main()

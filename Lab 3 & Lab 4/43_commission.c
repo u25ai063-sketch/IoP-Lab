@@ -1,3 +1,4 @@
+// C program to find commission on sale.
 #include <stdio.h>
 
 int main()

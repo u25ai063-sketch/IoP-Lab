@@ -1,3 +1,4 @@
+// C program to print factors of a no.
 #include <stdio.h>
 
 int main()
