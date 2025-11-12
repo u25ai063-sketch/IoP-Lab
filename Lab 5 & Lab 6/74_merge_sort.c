@@ -29,9 +29,9 @@ void traverse_sort(int b[], int k)
 void sort(int a[], int n)
 {
     int temp;
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
-        for (int j = 0; j < n; j++)
+        for (int j = 0; j < n - 1; j++)
         {
             if (a[j] > a[j + 1])
             {
@@ -63,7 +63,7 @@ int main()
     printf("Enter the elements of array A:\n");
     traverse_sort(a, m);
 
-    printf("Enter the elements of array B:\n");
+    printf("\nEnter the elements of array B:\n");
     traverse_sort(b, n);
 
     for (int i = 0; i < m; i++)
@@ -74,6 +74,6 @@ int main()
     {
         c[m + i] = b[i];
     }
-    printf("Merged and sorted array C:\n");
+    printf("\nMerged and sorted array C:\n");
     sort(c, m + n);
 }

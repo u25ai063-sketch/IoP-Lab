@@ -3,7 +3,7 @@
 int main()
 {
 
-    int n, i, j, temp;
+    int n, i, j, max = 0, min = 999999999;
 
     printf("Enter the range of numbers:\n");
     scanf("%d", &n);
@@ -24,20 +24,19 @@ int main()
         printf("%d\t", num[i]);
     }
 
-    // Loop to sort the entered numbers.
     for (i = 0; i < n; i++)
     {
-        for (j = i + 1; j < n; j++)
+        if (num[i] > max)
         {
-            if (num[i] > num[j])
-            {
-                temp = num[j];
-                num[j] = num[i];
-                num[i] = temp;
-            }
+            max = num[i];
+        }
+
+        if (num[i] < min)
+        {
+            min = num[i];
         }
     }
 
-    printf("\nThe max no. from above is %d\n", num[n - 1]);
-    printf("The second max no. from above is %d\n", num[n - 2]);
+    printf("\nThe max no. from above is %d\n", max);
+    printf("The second max no. from above is %d\n", min);
 }

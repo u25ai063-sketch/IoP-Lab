@@ -16,9 +16,9 @@ int main()
         printf("%d\t", a[i]);
     }
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 4; i++)
     {
-        for (int j = 0; j < 5 - i; j++)
+        for (int j = 0; j < 4 - i; j++)
         {
             if (a[j] > a[j + 1])
             {

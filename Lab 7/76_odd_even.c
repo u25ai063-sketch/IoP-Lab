@@ -1,7 +1,5 @@
 #include <stdio.h>
-void even_odd(int a
-
-)
+void even_odd(int a)
 {
     if (a % 2 == 0)
     {
