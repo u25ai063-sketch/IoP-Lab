@@ -13,10 +13,10 @@ int main()
     gets(x.item_name);
 
     printf("Enter the quantity:\n");
-    scanf("%d", &x.quantity);
+    scanf("%d", x.quantity);
 
     printf("Enter the price of the item:\n");
-    scanf("%f", &x.price);
+    scanf("%f", x.price);
 
     x.amount = (x.quantity) * (x.price);
     printf("The item name is %s\n", x.item_name);

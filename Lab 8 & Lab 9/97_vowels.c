@@ -5,11 +5,11 @@ int main()
     char str[100];
     int i = 0, vowel = 0;
     printf("Enter the string:\n");
-    gets(str);
+    fgets(str, sizeof(str), stdin);
 
-    while (str[i] != '\0')
+    while (*(str + i) != '\0')
     {
-        switch (str[i])
+        switch (*(str + i))
         {
         case 'a':
         case 'e':
@@ -26,5 +26,5 @@ int main()
         i++;
     }
 
-    printf("No. of vowels in the given string is %d", vowel);
+    printf("No. of vowels in the given string is %d\n", vowel);
 }

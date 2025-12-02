@@ -5,19 +5,18 @@ int main()
 {
     char string[100], word = 1;
     printf("Enter a sentence:\n");
-    gets(string);
+    fgets(string, sizeof(string), stdin);
 
     int i = 0;
-    while (string[i] != '\0')
+    while (*(string + i) != '\0')
     {
-        switch (string[i])
+        switch (*(string + i))
         {
         case ' ':
         case '\t':
-        case '\n':
             word++;
         }
         i++;
     }
-    printf("No. of words in the string is: %d", word);
+    printf("No. of words in the string is:%d", word);
 }
