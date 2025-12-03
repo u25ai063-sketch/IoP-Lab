@@ -1,0 +1,6 @@
+The C Programming Language, created by Dennis Ritchie, is a powerful general purpose language. 
+It is often used for operating systems, compilers, and embedded systems.
+One of C's most important features is its use of pointers, which allow for direct memory manipulation. 
+This low-level control makes C extremely fast and efficient.
+Remember to properly terminate strings with the null character '\0'. 
+Empty lines count as lines, but contribute zero words and characters. Enjoy the assignment!
